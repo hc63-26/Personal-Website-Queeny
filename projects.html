@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Projects — Queeny Chen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row hero">
+            <div class="col-lg-12">
+                <div class="hero-box">
+                    <h1>Queeny Chen's Portfolio</h1>
+                    <p class="short-profile">Master's in Information Systems, Kelley School of Business</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="row navbar navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="nav navbar-nav">
+                    <li><a class="navlink" href="index.html">Home</a></li>
+                    <li><a class="navlink" href="aboutme.html">About Me</a></li>
+                    <li><a class="navlink" href="resume.html">Resume</a></li>
+                    <li class="active"><a class="navlink" href="projects.html">Projects</a></li>
+                    <li><a class="navlink" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="content-wide">
+            <h2>Projects</h2>
+            <p class="intro-text">A selection of projects showcasing analytics, integrations, and product-focused
+                dashboards. Click through to view demos and engage with the website.</p>
+
+            <section class="teaser-row" aria-label="Project list">
+
+                <!-- Project 1 -->
+                <article class="card project-card" aria-labelledby="proj-1-title">
+                    <h3 id="proj-1-title">Student Course Assignment Portal</h3>
+                    <p class="project-desc">A university-facing portal for assigning students to courses and managing
+                        enrollments. Administrators can upload CSV files to bulk-import students or course assignments;
+                        the system validates inputs, parses files, and inserts records into the student information
+                        system. Role-based access control, upload feedback, and error reporting are included. Try the
+                        live demo below! (not required to put in valid email and password)</p>
+                    <p class="project-tech"><span class="skill">Node.js</span> <span class="skill">APIs</span> <span
+                            class="skill">CSS</span> <span class="skill">File Uploads (CSV)</span> <span
+                            class="skill">HTML</span> <span class="skill">SQL</span></p>
+                    <img src="images/project.png" alt="Student course assignment portal dashboard"
+                        class="profile-photo project-full" />
+                    <p class="project-links">
+                        <a class="btn btn-cta" href="https://r8rqdg.csb.app/index.html" target="_blank"
+                            rel="noopener">Live
+                            Demo</a>
+                    </p>
+                </article>
+
+                <!-- Project 2: University Student Assignment Portal -->
+                <article class="card project-card" aria-labelledby="proj-2-title">
+                    <h3 id="proj-2-title">Student Security Dashboard (Prototype & Wireframe)</h3>
+                    <p class="project-desc">A prototype and wireframe built for a Design Thinking class: a Student
+                        Security Dashboard
+                        designed to strengthen data‑usage security and increase student trust. The dashboard visualizes
+                        access patterns, highlights risky data practices, and provides clear, student‑facing privacy
+                        controls and audit trails. Features include role‑based views for admins, real‑time alerts for
+                        suspicious access, anonymized usage analytics, and upload/consent tracking to support
+                        transparent, accountable data handling. Try the live demo below!</p>
+                    <p class="project-tech"><span class="skill">Figma</span> <span class="skill">APIs</span> <span
+                            class="skill">Build.io</span> <span class="skill">Data Security</span> <span
+                            class="skill">HTML</span> <span class="skill">SQL</span></p>
+                    <div class="project-images three" aria-hidden="false">
+                        <img src="images/project1.png" alt="Portal - dashboard view" class="project-image" />
+                        <img src="images/project12.png" alt="Portal - assignment upload form" class="project-image" />
+                        <img src="images/project123.png" alt="Portal - import results and errors"
+                            class="project-image" />
+                    </div>
+                    <img src="images/project1234.png" alt="Student Security Dashboard prototype screenshot"
+                        class="profile-photo project-full" />
+                    <p class="project-links">
+                        <a class="btn btn-cta" href="https://2767aa172f5f482e8e498017991b4fe9-main.projects.builder.my/"
+                            target="_blank" rel="noopener">Live
+                            Demo</a>
+                    </p>
+                </article>
+
+            </section>
+
+            <div style="margin-top:1.25rem; text-align:center;">
+                <a class="btn btn-cta" href="contact.html">Have a project? Contact me</a>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>Contact | Phone: <a href="tel:8129293476">812-929-3476</a> | <a
+                        href="mailto:hc63@iu.edu">hc63@iu.edu</a> | 3200 John Hinckle Pl, Bloomington, IN 47408</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
